@@ -3,7 +3,7 @@ name: Deploy
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   build:
@@ -14,4 +14,4 @@ jobs:
         with:
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
           heroku_app_name: "gabgarde"
-          heroku_email: "rpgarde@gmail.com"
+          heroku_email: "rpgarde@gmail.com"g
