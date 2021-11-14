@@ -13,7 +13,7 @@ export default function ArtPortfolio() {
         <div className = "bg-light">
             <Container className="min-vh-100" id="art">
                 <h2 className = "py-3 text-burgundy text-center">My personal art projects</h2>
-                <Row xs={1} md={2} className="g-4">
+                <Row xs={1} md={2} className="g-4 justify-content-evenly">
                 {portfolioData.map((work)=>(
                     <Card style={{ width: '18rem' }} className = "m-3 border-0 shadow-sm">
                         <Card.Body>
