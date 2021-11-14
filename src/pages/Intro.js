@@ -9,20 +9,20 @@ import Row from 'react-bootstrap/Row'
 export default function Intro() {
     return (
         <div>
-            <Container className="min-vh-100" fluid="lg" id="home">
+            <Container className="min-vh-75" fluid="sm" id="home">
                 <Card className="border-0">
                     <Card.Body>
                         <Row className = "d-flex align-items-center">
-                            <Col sm={6} md ={4}>
-                                <Image src="/images/profile.jpeg" roundedCircle fluid />
-                            </Col>
                             <Col>
                                 <Card.Title>
-                                    <h1 className="text-burgundy">Hello, I'm Gab Garde.</h1>
+                                    <h1 className="text-burgundy">Museums and galleries professional, emerging conservator, and visual artist based in Brisbane.</h1>
                                 </Card.Title>
-                                <Card.Text>
+                                {/* <Card.Text>
                                     I am a museums and galleries professional, emerging conservator, and visual artist based in Brisbane.
-                                </Card.Text>
+                                </Card.Text> */}
+                            </Col>
+                            <Col sm={6} md ={5}>
+                                <Image src="/images/profile.jpeg" roundedCircle fluid />
                             </Col>
                         </Row>
                     </Card.Body>
