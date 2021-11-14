@@ -7,9 +7,10 @@ export default function Header() {
   return (
     <Navbar bg="dark" variant="dark" sticky="top">
     <Container>
-    <Navbar.Brand href="#home">Gab Garde</Navbar.Brand>
+    <Navbar.Brand href="#home" className = "text-lora">Gab Garde</Navbar.Brand>
     <Nav className="me-auto">
-      <Nav.Link href="#portfolio">Portfolio</Nav.Link>
+      <Nav.Link href="#conservation">Conservation</Nav.Link>
+      <Nav.Link href="#art">Art</Nav.Link>
       <Nav.Link href="#about">About</Nav.Link>
       <Nav.Link href="#contact">Contact</Nav.Link>
     </Nav>

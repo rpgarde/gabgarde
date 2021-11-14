@@ -10,15 +10,15 @@ export default function Intro() {
     return (
         <div>
             <Container className = "min-vh-100" id = "home">
-            <Card>
-                <Card.Body className = "border-0">
+            <Card className = "border-0">
+                <Card.Body>
                 <Row>
                     <Col md = {4}>
                         <Card.Img src="/images/profile.jpeg" />
                     </Col>
                     <Col>
                         <Card.Title>
-                            Gab Garde
+                            <h1 className = "text-burgundy">Hello, I'm Gab Garde.</h1>
                         </Card.Title>
                         <Card.Text>
                             I am a museums and galleries professional, emerging conservator, and visual artist based in Brisbane.

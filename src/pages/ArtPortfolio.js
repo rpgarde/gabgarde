@@ -7,15 +7,15 @@ import Col from 'react-bootstrap/Col'
 import Row from 'react-bootstrap/Row'
 import portfolioData from '../data/portfolioData'
 
-export default function Portfolio() {
+export default function ArtPortfolio() {
 
     return (
-        <div>
-            <Container className="min-vh-100" id="portfolio">
-                <h1 className = "my-3">Here's some of my art</h1>
+        <div className = "bg-light">
+            <Container className="min-vh-100" id="art">
+                <h2 className = "py-3 text-burgundy text-center">My personal art projects</h2>
                 <Row xs={1} md={2} className="g-4">
                 {portfolioData.map((work)=>(
-                    <Card style={{ width: '18rem' }} className = "m-3">
+                    <Card style={{ width: '18rem' }} className = "m-3 border-0 shadow-sm">
                         <Card.Body>
                         <Card.Img variant="top" src={`/images/${work.image}`} />
                             <Card.Title>{work.title}</Card.Title>
