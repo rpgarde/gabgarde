@@ -61,7 +61,8 @@ export default function Portfolio() {
                         <p>I am a student member of the Australian Institute for the Conservation of Cultural Material (AICCM), and aspire to be a vocal, proactive advocate for cultural heritage. I am actively engaged in the field, and take opportunities to connect with like-minded professionals and contribute my unique perspectives. I truly have a deep love for history and the arts, and an appreciation and sensitivity for the countless human cultures scattered across different nations and time periods. </p>
                     </Col>
                 </Row>
-                <Row xs={1} md={2} className="mt-3 g-4 justify-content-evenly">
+                <hr/>
+                <Row xs={1} md={2} className="g-4 justify-content-evenly">
                     <Col md={6}>
                         <h4 className="text-center text-burgundy">Work experience</h4>
                         {workExperience.map((job) => (

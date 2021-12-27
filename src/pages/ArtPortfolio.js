@@ -35,10 +35,10 @@ export default function ArtPortfolio() {
             <Container className="min-vh-100" id="art">
                 <h2 className="pt-3 text-burgundy text-center">My personal art projects</h2>
                 <p className = "text-center">Click on any of the images for a more detailed write-up.</p>
-                <Row className="justify-content-evenly">
+                <Row>
                     {portfolioData.map((work) => (
                         <>
-                            <Col sm={12} md={6} lg={4}>
+                            <Col sm={12} md={6} lg={4} className = "d-flex align-self-stretch">
                                 <Card className="mb-3 border-0 shadow-sm">
                                     <Card.Body>
                                         <Card.Img onClick = {()=>handleShow(work)} variant="top" src={`/images/${work.image}`} style={styles} />
