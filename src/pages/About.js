@@ -19,7 +19,7 @@ export default function Portfolio() {
             <Container className="min-vh-100" fluid="sm" id="about">
                 <h2 className="my-3 text-burgundy text-center">I am versatile and multi-skilled.</h2>
                 <Row>
-                    <Col xs ={5} sm = {3}>
+                    <Col xs ={12} sm = {3}>
                         <Image src={`/images/working.jpg`} rounded fluid style = {imgStyle}/>
                     </Col>
                     <Col>
