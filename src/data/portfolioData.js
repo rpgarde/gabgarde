@@ -1,7 +1,7 @@
 const portfolioData = [
     {
         title:"Brutus The Chimpanzee",
-        image:"brutus1.png",
+        image:"brutus.jpg",
         description:`Inspired by the world of Planet of the Apes, Brutus is a grizzled old chimpanzee who specializes in hunting humans. Brutus was made of Sculpey Living Doll polymer clay, with a combination of synthetic fur and mohair. Each accessory was hand-sculpted, hand-painted, or hand-sewn.`,
         descriptionLong:`Inspired by the world of Planet of the Apes, Brutus is a grizzled old chimpanzee who specializes in hunting humans. He won't rest until mankind has either been eradicated or completely subjugated by his fellow apes. He is armed with a crudely-fashioned stone scythe, and carries a small stone dagger at his side. He wears a feathered deer skull headdress, goggles, a painted mask, tattered robes, a bone-covered vambrace, and a shoulder and shin guard made of scrap metal. He also carries two shrunken heads, a human skull, and a satchel marked with a tally of his human kills.
         
