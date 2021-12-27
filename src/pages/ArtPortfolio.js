@@ -1,12 +1,8 @@
 import React,{useState} from 'react'
-import Navbar from 'react-bootstrap/Navbar'
 import Container from 'react-bootstrap/Container'
-import Nav from 'react-bootstrap/Nav'
 import Card from 'react-bootstrap/Card'
 import Col from 'react-bootstrap/Col'
 import Row from 'react-bootstrap/Row'
-import Modal from 'react-bootstrap/Modal'
-import Button from 'react-bootstrap/Button'
 import portfolioData from '../data/portfolioData'
 import ImageModal from '../components/ImageModal'
 
@@ -31,8 +27,8 @@ export default function ArtPortfolio() {
     };
 
     return (
-        <div className="bg-light">
-            <Container className="min-vh-100" id="art">
+        <div className="bg-light" id = "art">
+            <Container className="min-vh-100">
                 <h2 className="pt-3 text-burgundy text-center">My personal art projects</h2>
                 <p className = "text-center">Click on any of the images for a more detailed write-up.</p>
                 <Row>

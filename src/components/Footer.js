@@ -1,5 +1,4 @@
 import React from 'react';
-import github from '../images/github-icon.png'
 import linkedin from '../images/linkedin-icon.png'
 import youtube from '../images/youtube-icon.png'
 import insta from '../images/insta.png'
@@ -23,7 +22,9 @@ export default function Footer() {
                 </a>
             </div>
             <div className="container d-flex justify-content-center">
-                <span className="text-muted">&copy; Gab Garde, 2021</span>
+                <span className="text-muted">
+                    &copy; Gab Garde, 2022 | Designed by <a href = "https://paologarde.com" style={{ color: 'inherit', textDecoration: 'inherit'}}>Paolo Garde</a>
+                </span>
             </div>
         </footer>
     )

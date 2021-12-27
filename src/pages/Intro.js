@@ -15,11 +15,8 @@ export default function Intro() {
                         <Row className = "d-flex align-items-center">
                             <Col>
                                 <Card.Title>
-                                    <h1 className="text-burgundy">Museums and galleries professional, emerging conservator, and visual artist based in Brisbane.</h1>
+                                    <h1 className="text-burgundy">Museums and galleries professional, emerging conservator, and visual artist based in Brisbane, Australia.</h1>
                                 </Card.Title>
-                                {/* <Card.Text>
-                                    I am a museums and galleries professional, emerging conservator, and visual artist based in Brisbane.
-                                </Card.Text> */}
                             </Col>
                             <Col sm={6} md ={5}>
                                 <Image src="/images/profile.jpeg" roundedCircle fluid />

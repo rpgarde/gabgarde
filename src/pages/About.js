@@ -4,6 +4,8 @@ import Card from 'react-bootstrap/Card'
 import Col from 'react-bootstrap/Col'
 import Row from 'react-bootstrap/Row'
 import Image from 'react-bootstrap/Image'
+import education from '../data/education';
+import workExperience from '../data/workExperience';
 
 const imgStyle = {
     height:"100%",
@@ -12,48 +14,12 @@ const imgStyle = {
 
 export default function Portfolio() {
 
-    const workExperience = [
-        {
-            duration: "July 2021  - Present",
-            company: "Queensland Museum",
-            position: "Operational Officer"
-        },
-        {
-            duration: "May 2021  - June 2021 (Contract)",
-            company: "St Peters Lutheran College (Old Scholars Archive)",
-            position: "Archives Consultant"
-        },
-        {
-            duration: "August 2019  - Present",
-            company: "Museum of Brisbane",
-            position: "Assistant Conservator, Collections Assistant, and Visitor Experience Officer"
-        },
-        {
-            duration: "January 2019  - September 2019",
-            company: "The University of Queensland Art Museum",
-            position: "Student Work Experience"
-        },
-    ]
-
-    const education = [
-        {
-            duration: "2021-2022",
-            school: "The University of Melbourne",
-            degree: "Master of Cultural Materials Conservation"
-        },
-        {
-            duration: "2019",
-            school: "The University of Queensland",
-            degree: "Graduate Certificate in Museum Studies"
-        }
-    ]
-
     return (
-        <div>
+        <>
             <Container className="min-vh-100" fluid="sm" id="about">
                 <h2 className="my-3 text-burgundy text-center">I am versatile and multi-skilled.</h2>
                 <Row>
-                    <Col sm ={3}>
+                    <Col xs ={5} sm = {3}>
                         <Image src={`/images/working.jpg`} rounded fluid style = {imgStyle}/>
                     </Col>
                     <Col>
@@ -73,7 +39,6 @@ export default function Portfolio() {
                                     <Card.Text>{job.position}</Card.Text>
                                 </Card.Body>
                             </Card>
-
                         ))}
                     </Col>
                     <Col md={6}>
@@ -91,6 +56,6 @@ export default function Portfolio() {
                     </Col>
                 </Row>
             </Container>
-        </div>
+        </>
     )
 }
