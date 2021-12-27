@@ -3,6 +3,10 @@ import Modal from 'react-bootstrap/Modal'
 import Col from 'react-bootstrap/Col'
 import Row from 'react-bootstrap/Row'
 
+const style = {
+    whiteSpace: 'pre-line'
+}
+
 function ImageModal({ show, handleClose, modalData }) {
     return (
         <Modal show={show} onHide={handleClose} animation={false} size="lg">
@@ -16,7 +20,7 @@ function ImageModal({ show, handleClose, modalData }) {
                     <img src={modalData.image} alt="modal" className="img-fluid p-2" />
                 </Col>
                 <Col>
-                    <Modal.Body>{modalData.descriptionLong}</Modal.Body>
+                    <Modal.Body style = {style}>{modalData.descriptionLong}</Modal.Body>
                 </Col>
             </Row>
         </Modal>
