@@ -1,10 +1,14 @@
 import * as React from 'react';
-import Navbar from 'react-bootstrap/Navbar'
 import Container from 'react-bootstrap/Container'
-import Nav from 'react-bootstrap/Nav'
 import Card from 'react-bootstrap/Card'
 import Col from 'react-bootstrap/Col'
 import Row from 'react-bootstrap/Row'
+import Image from 'react-bootstrap/Image'
+
+const imgStyle = {
+    height:"100%",
+    objectFit:"cover"
+}
 
 export default function Portfolio() {
 
@@ -46,10 +50,18 @@ export default function Portfolio() {
 
     return (
         <div>
-            <Container className="min-vh-100" fluid="lg" id="about">
-                <h2 className="mt-3 text-burgundy text-center">I am versatile and multi-skilled.</h2>
-                <p>I am an emerging conservator, currently enrolled in The University of Melbourne's Master of Cultural Materials Conservation program. I am honing my practical skills in conservation, while also developing a deeper understanding of the ethical considerations and standard professional practices in the field. I am a student member of the Australian Institute for the Conservation of Cultural Material (AICCM), and aspire to be a vocal, proactive advocate for cultural heritage. I am actively engaged in the field, and take opportunities to connect with like-minded professionals and contribute my unique perspectives. I truly have a deep love for history and the arts, and an appreciation and sensitivity for the countless human cultures scattered across different nations and time periods. </p>
-                <Row xs={1} md={2} className="g-4 justify-content-evenly">
+            <Container className="min-vh-100" fluid="sm" id="about">
+                <h2 className="my-3 text-burgundy text-center">I am versatile and multi-skilled.</h2>
+                <Row>
+                    <Col sm ={3}>
+                        <Image src={`/images/working.jpg`} rounded fluid style = {imgStyle}/>
+                    </Col>
+                    <Col>
+                        <p>I am an emerging conservator, currently enrolled in The University of Melbourne's Master of Cultural Materials Conservation program. I am honing my practical skills in conservation, while also developing a deeper understanding of the ethical considerations and standard professional practices in the field. </p>
+                        <p>I am a student member of the Australian Institute for the Conservation of Cultural Material (AICCM), and aspire to be a vocal, proactive advocate for cultural heritage. I am actively engaged in the field, and take opportunities to connect with like-minded professionals and contribute my unique perspectives. I truly have a deep love for history and the arts, and an appreciation and sensitivity for the countless human cultures scattered across different nations and time periods. </p>
+                    </Col>
+                </Row>
+                <Row xs={1} md={2} className="mt-3 g-4 justify-content-evenly">
                     <Col md={6}>
                         <h4 className="text-center text-burgundy">Work experience</h4>
                         {workExperience.map((job) => (
