@@ -2,7 +2,7 @@ const portfolioData = [
     {
         title:"Brutus The Chimpanzee",
         image:"brutus1.png",
-        description:`Inspired by the world of Planet of the Apes, Brutus was made of Sculpey Living Doll polymer clay, with a combination of synthetic fur and mohair. Each accessory was hand-sculpted, hand-painted, or hand-sewn.`
+        description:`Inspired by the world of Planet of the Apes, Brutus is a grizzled old chimpanzee who specializes in hunting humans. Brutus was made of Sculpey Living Doll polymer clay, with a combination of synthetic fur and mohair. Each accessory was hand-sculpted, hand-painted, or hand-sewn.`
     },
     {
         title:"Mama Coco",
