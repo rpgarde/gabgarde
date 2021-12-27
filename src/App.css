@@ -15,3 +15,26 @@ h1, h2, h3, h4, h5 {
 .text-lora{
   font-family: 'Lora', serif;
 }
+
+.opacity-0{
+  opacity:0;
+  font-family: 'Lora', serif;
+}
+
+.opacity-1{
+  opacity:1;
+  transition:1s;
+  font-family: 'Lora', serif;
+}
+
+.custom-card-img{
+    object-fit: 'cover';
+    max-height: '10rem';
+    object-position: '50% 20%';
+    cursor:'pointer';
+}
+
+img.custom-card-img:hover{
+  transform: scale(1.02);
+  transition:0.5s;
+}

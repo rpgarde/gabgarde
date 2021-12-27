@@ -9,7 +9,7 @@ const style = {
 
 function ImageModal({ show, handleClose, modalData }) {
     return (
-        <Modal show={show} onHide={handleClose} animation={false} size="lg">
+        <Modal show={show} onHide={handleClose} animation={false} fullscreen="lg-down" size = "xl">
             <Modal.Header closeButton>
                 <Modal.Title>
                     <h2 className = "text-burgundy">{modalData.title}</h2>
