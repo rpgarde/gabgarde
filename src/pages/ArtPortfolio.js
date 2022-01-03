@@ -22,7 +22,7 @@ export default function ArtPortfolio() {
         setModalData({
             title:work.title,
             descriptionLong:work.descriptionLong,
-            image:`/images/${work.image}`
+            image:work.image
         })
     };
 
