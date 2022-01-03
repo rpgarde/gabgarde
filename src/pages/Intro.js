@@ -5,6 +5,7 @@ import Image from 'react-bootstrap/Image'
 import Card from 'react-bootstrap/Card'
 import Col from 'react-bootstrap/Col'
 import Row from 'react-bootstrap/Row'
+import profile from '../images/profile.jpeg'
 
 export default function Intro() {
 
@@ -22,12 +23,6 @@ export default function Intro() {
         const timeoutThree = setTimeout(()=>{
             setIntroThree(true)
         },3000)
-
-        // return () => {
-        //     clearTimeout(timeoutOne)
-        //     clearTimeout(timeoutTwo)
-        //     clearTimeout(timeoutThree)
-        // }
     })
 
     return (
@@ -46,7 +41,7 @@ export default function Intro() {
                                 </Card.Title>
                             </Col>
                             <Col sm={6} md={5}>
-                                <Image src="/images/profile.jpeg" roundedCircle fluid />
+                                <Image src={profile} roundedCircle fluid />
                             </Col>
                         </Row>
                     </Card.Body>

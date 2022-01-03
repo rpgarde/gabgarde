@@ -37,7 +37,7 @@ export default function ArtPortfolio() {
                             <Col sm={12} md={6} lg={4} className = "d-flex align-self-stretch">
                                 <Card className="mb-3 border-0 shadow-sm">
                                     <Card.Body>
-                                        <Card.Img onClick = {()=>handleShow(work)} variant="top" src={`/images/${work.image}`} style={styles} className = "custom-card-img"/>
+                                        <Card.Img onClick = {()=>handleShow(work)} variant="top" src={work.image} style={styles} className = "custom-card-img"/>
                                         <Card.Title className="my-2 text-center">
                                             <h5 className="text-burgundy">{work.title}</h5>
                                         </Card.Title>

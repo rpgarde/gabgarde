@@ -6,6 +6,7 @@ import Row from 'react-bootstrap/Row'
 import Image from 'react-bootstrap/Image'
 import education from '../data/education';
 import workExperience from '../data/workExperience';
+import working from '../images/working.jpg'
 
 const imgStyle = {
     height:"100%",
@@ -20,7 +21,7 @@ export default function Portfolio() {
                 <h2 className="my-3 text-burgundy text-center">I am versatile and multi-skilled.</h2>
                 <Row>
                     <Col xs ={12} sm = {3}>
-                        <Image src={`/images/working.jpg`} rounded fluid style = {imgStyle}/>
+                        <Image src={working} rounded fluid style = {imgStyle}/>
                     </Col>
                     <Col>
                         <p>I am an emerging conservator, currently enrolled in The University of Melbourne's Master of Cultural Materials Conservation program. I am honing my practical skills in conservation, while also developing a deeper understanding of the ethical considerations and standard professional practices in the field. </p>
