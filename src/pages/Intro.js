@@ -14,13 +14,13 @@ export default function Intro() {
     const [introThree, setIntroThree] = useState(false)
 
     useEffect(()=>{
-        const timeoutOne = setTimeout(()=>{
+        setTimeout(()=>{
             setIntroOne(true)
         },1000)
-        const timeoutTwo = setTimeout(()=>{
+        setTimeout(()=>{
             setIntroTwo(true)
         },2000)
-        const timeoutThree = setTimeout(()=>{
+        setTimeout(()=>{
             setIntroThree(true)
         },3000)
     })

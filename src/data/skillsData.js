@@ -28,6 +28,19 @@ const skills = [
 
     },
     {
+        category: "Administrative",
+        content: [
+            'Condition reporting with mylar overlays on photographs to indicate damage',
+            'KE EMu and CM9 Training', 
+            'Treatment reports',
+            'Photography assistance',
+            'Photograph renaming and organisation',
+            'Detailed photographic record sheets',
+            'Preservation Needs Assessment'
+        ]
+
+    },
+    {
         category: "Cleaning",
         content: [
             'Dry cleaning (brush and vacuum, plastic eraser, Groomstick)',
@@ -43,19 +56,6 @@ const skills = [
         ]
 
     },
-    {
-        category: "Administrative",
-        content: [
-            'Condition reporting with mylar overlays on photographs to indicate damage',
-            'KE EMu and CM9 Training', 
-            'Treatment reports',
-            'Photography assistance',
-            'Photograph renaming and organisation',
-            'Detailed photographic record sheets',
-            'Preservation Needs Assessment'
-        ]
-
-    }
 ]
 
 export default skills

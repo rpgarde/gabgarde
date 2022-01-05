@@ -1,4 +1,8 @@
 const workExperience = [
+    {   duration: "August 2021 - Present",
+        company: "Queensland Art Gallery / Gallery of Modern Art (QAGOMA)",
+        position:"Conservation Volunteer (10th Asia-Pacific Triennial)"
+    },
     {
         duration: "July 2021  - Present",
         company: "Queensland Museum",

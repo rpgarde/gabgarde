@@ -6,6 +6,8 @@ import ArtPortfolio from './pages/ArtPortfolio'
 import Conservation from './pages/Conservation'
 import Contact from './pages/Contact'
 import Footer from './components/Footer'
+import Publications from './pages/Publications';
+import Skills from './pages/Skills';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
@@ -16,6 +18,8 @@ function App() {
     <Conservation/>
     <ArtPortfolio/>
     <About/>
+    <Skills/>
+    <Publications/>
     <Contact/>
     <Footer/>
     </div>
