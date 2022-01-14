@@ -5,7 +5,6 @@ import Col from 'react-bootstrap/Col'
 import Row from 'react-bootstrap/Row'
 import skills from '../data/skillsData';
 
-
 export default function Skills() {
 
     return (

@@ -3,11 +3,6 @@ import Container from 'react-bootstrap/Container'
 import Card from 'react-bootstrap/Card'
 import Col from 'react-bootstrap/Col'
 import Row from 'react-bootstrap/Row'
-import Image from 'react-bootstrap/Image'
-import education from '../data/education';
-import workExperience from '../data/workExperience';
-import working from '../images/working.jpg'
-import skills from '../data/skillsData';
 import Button from 'react-bootstrap/Button'
 
 function Publications() {

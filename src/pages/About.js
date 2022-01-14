@@ -7,7 +7,7 @@ import Image from 'react-bootstrap/Image'
 import education from '../data/education';
 import workExperience from '../data/workExperience';
 import working from '../images/working.jpg'
-import skills from '../data/skillsData';
+
 const imgStyle = {
     height:"100%",
     objectFit:"cover"
